@@ -5,17 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node fetchusers.ts"
+    "start": "ts-node fetchauthuser.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/node-fetch": "^2.6.12",
+    "axios": "^1.9.0",
     "dotenv": "^16.5.0",
-    "node-fetch": "^2.7.0"
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^24.10.0",
+    "qs": "^6.14.0"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/qs": "^6.14.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
